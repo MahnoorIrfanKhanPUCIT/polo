@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    text-decoration: none;
+}
+
+span{
+    color: #5800FF;
+}
+
+/* SECOND CONTAINER STYLING */
+
+header{
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color:  #212121;
+    color: white;
+}
+
+.header-text{
+    font-size: 20px;
+    padding-left: 70px;
+    margin-top: 6px;
+}
+
+.first-button{
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 400px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.second-button{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #5800FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.second-button:hover{
+    background-color: #9060f0;
+    border: 2px solid rgb(255, 0, 234);
+}
+
+
+.second-container-portions{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 30px;
+}
+
+.second-container-data{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logos{
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+    line-height: 1.5;
+
+}
+
+.second-container-image1{
+    width: 30%;
+    padding-bottom: 10px;
+}
+
+.second-container-image2{
+    width: 21%;
+    padding-bottom: 10px;
+}
+
+.second-container-image3{
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+/* THIRD CONTAINER STYLING */
+
+.third-container-data{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.third-container-subdata{
+    font-size: 15px;
+    width: 750px;
+    text-align: center;
+    margin-left: 200px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.client-logo{
+    padding: 20px;
+}
+
+.L1{
+       width: 15%;
+}
+
+.L2{
+    width: 15%;
+    padding: 10px;
+}
+
+.L3{
+    width: 12%;
+    padding: 10px;
+}
+
+.L4{
+    width: 13%;
+    padding: 10px;
+}
+
+.L5{
+    width: 11%;
+    padding: 10px;
+}
+
+hr{
+    border: 5px dotted #897f9c;
+    border-bottom: none;
+    width: 10%;
+    margin: 20px auto 20px auto;
+}
+
+/* FOOTER STYLING */
+
+footer{
+    background-color: #5800FF;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    height: 40px;
+    margin-top: 0;
+    padding-top: 20px;
+}
